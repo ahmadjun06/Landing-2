@@ -10,6 +10,7 @@ body {
 }
 section {
     padding-left: calc(10vw - 16px);
+    margin-bottom: calc(11vw + 19px);
 }
 
 .courseData {
@@ -172,7 +173,6 @@ h2 {
 }
 
 .page3 {
-    margin-bottom: calc(11vw + 19px);
     display: flex;
     flex-wrap: wrap;
 }
@@ -277,9 +277,6 @@ h2 {
 .btn:hover {
     cursor: pointer;
 }
-.section4 {
-    margin-bottom: calc(11vw + 19px);
-}
 .section4 h4 {
     font-size: calc(2.65vw + 24px);
     font-weight: 500;
@@ -348,11 +345,6 @@ h2 {
 .photoRoman-Ickov {
     width: calc(7.7 + 170px);
 }
-
-.page6 {
-    margin-bottom: calc(11vw + 19px);
-    height: 313px;
-}
 .page6Child {
     display: flex;
     flex-wrap: wrap;
@@ -377,9 +369,13 @@ h2 {
     margin-top: 0;
     width: calc(20.5vw + 251px);
 }
-
+.photoDiplom {
+    width: calc(19.1vw + 334px);
+}
+.photos {
+    width: calc(55.1vw + 24px);
+}
 .page7 {
-    margin-bottom: calc(11vw + 19px);
     height: calc(32.7vw + 323px);
 }
 .price {
@@ -418,11 +414,8 @@ h2 {
     position: absolute;
     top: calc(11vw + 3px);
 }
-.page8 {
-    margin-bottom: calc(11vw + 19px);
-}
 .border {
-    width: 1065px;
+    width: calc(81.4vw + 23px);
     border: 2px solid black;
     padding: calc(4.4vw + 23px) calc(4.9vw + 2px);
 }
@@ -456,15 +449,113 @@ h2 {
     display: none;
 }
 @media (max-width: 600px) {
-    .desktop{
+    .desktop {
         display: none;
     }
-    .mobile{
+    .mobile {
         display: block;
+        margin-top: 20px;
     }
-    .lesson{
+    .lesson {
         border: 0;
-        
+    }
+    .surprises-box {
+        flex-wrap: wrap;
     }
 }
 
+.page8 h2 {
+    width: auto;
+    height: auto;
+    font-size: calc(2.6vw + 24px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.surprises-box {
+    display: flex;
+}
+.surprise-box {
+    margin-top: calc(7.7vw - 9px);
+}
+.studentBox {
+    width: calc(19.1vw + 334px);
+}
+.surprise-box p {
+    font-size: calc(0.3vw + 17px);
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+    margin-bottom: calc(-0.5vw + 27px);
+}
+
+.page9 h2 {
+    width: auto;
+    height: auto;
+    margin: 0;
+    font-size: calc(2.2vw + 30px);
+    font-weight: 500;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.pageNinesChild {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about {
+    margin-top: calc(5vw + 15px);
+    width: calc(7vw + 270px);
+    margin-right: 97px;
+}
+
+.about p {
+    font-size: calc(0.9vw + 14px);
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 0;
+    margin-top: calc(2.2vw + 12px);
+}
+.about2{
+margin-top: calc(6.8vw + 16px);
+}
+.aboutFirstChild {
+    margin: 0;
+    font-size: calc(2.2vw + 30px);
+    font-weight: 700;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.aboutSecondChild{
+    margin-top: 0;
+    font-size: calc(0.5vw + 14px);
+    margin-bottom: calc(1.1vw + 26px);
+}
+.aboutThirdChild{
+    margin: 0;
+    font-size: calc(2.2vw + 30px);
+    font-weight: 700;
+    letter-spacing: 0.58px;
+    text-transform: uppercase;
+}
+.page10 h2{
+    width: auto;
+    height: auto;
+}
+.page10 p{
+    font-size: calc(0.9vw + 14px);
+    font-weight: 400;
+    line-height: 140%;
+    margin: 0;
+    width: calc(48.8vw + 100px);
+    margin-bottom: 24px;
+    margin-top: 14px;
+}
+.graduationsPhotos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.graduationsPhotos img{
+    width: calc(19.7vw + 254px);
+}
