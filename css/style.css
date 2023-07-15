@@ -106,7 +106,6 @@ h2 {
     flex-wrap: wrap;
 }
 .first {
-    height: 506px;
     width: 450px;
     margin-top: calc(5.5vw + 19px);
     margin-right: 70px;
@@ -129,7 +128,6 @@ h2 {
 .second {
     margin-top: calc(5.5vw + 19px);
     width: 450px;
-    height: 468px;
 }
 .student {
     margin: 0;
@@ -144,7 +142,6 @@ h2 {
 }
 .third {
     width: 432px;
-    height: 468px;
     margin-right: 88px;
     margin-top: 52px;
 }
@@ -161,7 +158,6 @@ h2 {
 }
 .fourth {
     width: 477px;
-    height: 506px;
     margin-top: 52px;
 }
 .new {
