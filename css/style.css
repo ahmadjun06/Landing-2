@@ -458,8 +458,16 @@ h2 {
     .surprises-box {
         flex-wrap: wrap;
     }
+    footer {
+        flex-wrap: wrap;
+    }
+    .display {
+        display: none;
+    }
 }
-
+.margin-top {
+    margin-top: 47px;
+}
 .page8 h2 {
     width: auto;
     height: auto;
@@ -512,8 +520,8 @@ h2 {
     margin-bottom: 0;
     margin-top: calc(2.2vw + 12px);
 }
-.about2{
-margin-top: calc(6.8vw + 16px);
+.about2 {
+    margin-top: calc(6.8vw + 16px);
 }
 .aboutFirstChild {
     margin: 0;
@@ -522,23 +530,23 @@ margin-top: calc(6.8vw + 16px);
     letter-spacing: 0.58px;
     text-transform: uppercase;
 }
-.aboutSecondChild{
+.aboutSecondChild {
     margin-top: 0;
     font-size: calc(0.5vw + 14px);
     margin-bottom: calc(1.1vw + 26px);
 }
-.aboutThirdChild{
+.aboutThirdChild {
     margin: 0;
     font-size: calc(2.2vw + 30px);
     font-weight: 700;
     letter-spacing: 0.58px;
     text-transform: uppercase;
 }
-.page10 h2{
+.page10 h2 {
     width: auto;
     height: auto;
 }
-.page10 p{
+.page10 p {
     font-size: calc(0.9vw + 14px);
     font-weight: 400;
     line-height: 140%;
@@ -547,11 +555,122 @@ margin-top: calc(6.8vw + 16px);
     margin-bottom: 24px;
     margin-top: 14px;
 }
-.graduationsPhotos{
+.graduationsPhotos {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-.graduationsPhotos img{
+.graduationsPhotos img {
     width: calc(19.7vw + 254px);
+}
+.reviews {
+    display: flex;
+    gap: 30px;
+}
+.review_card {
+    border-radius: 12px;
+    background-color: #f0f7fd;
+    padding: 50px 20px 36px;
+}
+.review_card img {
+    margin-bottom: 8px;
+}
+.review_card p {
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 140%;
+    font-size: 21px;
+}
+.review_text {
+    align-items: center;
+    gap: 12px;
+    display: flex;
+}
+.review_text img {
+    border-radius: 50%;
+}
+.review_text p {
+    max-width: 169px;
+    margin-bottom: 0;
+}
+footer {
+    display: flex;
+    background-color: #222;
+    color: #fff;
+    padding: 120px;
+    gap: 166px;
+    justify-content: space-between;
+}
+.footer_left h2 {
+    max-width: 424px;
+    height: auto;
+    margin-bottom: 80px;
+}
+.course li {
+    font-size: calc(0.9vw + 14px);
+    line-height: 140%;
+    text-transform: uppercase;
+    list-style: none;
+    margin-bottom: 24px;
+}
+ul {
+    padding: 0;
+}
+
+.footer_right {
+    width: 474px;
+    background-color: #fff;
+    border-radius: 12px;
+    text-align: center;
+    color: #222;
+    padding: 60px 70px 50px;
+}
+.footer_right h3 {
+    font-size: calc(0.4vw + 24px);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.footer_right p {
+    margin: 0;
+    font-size: calc(0.5vw 14px);
+    line-height: 140%;
+}
+.phon_number {
+    display: flex;
+}
+.phon_number img {
+    width: 31px;
+    height: 14px;
+    margin-top: 20px;
+}
+.phon_number input {
+    border: none;
+    margin-bottom: 0;
+}
+.footer_right span {
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: lowercase;
+}
+.footersChild2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+.footer_right input {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #a1a1a1;
+}
+.course img {
+    margin-right: 20px;
 }
